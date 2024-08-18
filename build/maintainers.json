@@ -427,6 +427,12 @@
     "mjysci",
     "TonyRL"
   ],
+  "/apnews/sitemap/:route": [
+    "zoenglinghou",
+    "mjysci",
+    "TonyRL",
+    "dzx-dzx"
+  ],
   "/apnews/topics/:topic?": [
     "zoenglinghou",
     "mjysci",
@@ -912,6 +918,9 @@
   ],
   "/buaa/sme/:path{.+}?": [
     "MeanZhang"
+  ],
+  "/buaa/lib/space/:path{newbook.*}": [
+    "OverflowCat"
   ],
   "/buaa/news/:type": [
     "AlanDecode"
@@ -2188,7 +2197,7 @@
   ],
   "/gdsrx/:id?": [],
   "/gdut/oa_news/:type?": [
-    "Jim Kirisame"
+    "jim-kirisame"
   ],
   "/gelonghui/home/:tag?": [
     "TonyRL"
@@ -2887,6 +2896,9 @@
     "nczitzk"
   ],
   "/hostmonit/cloudflareyesv6": [],
+  "/hottoys/": [
+    "jw0903"
+  ],
   "/hotukdeals/hottest": [
     "DIYgod"
   ],
@@ -3154,6 +3166,11 @@
   ],
   "/informs/:category?": [
     "Fatpandac"
+  ],
+  "/infzm/hot": [
+    "KarasuShin",
+    "ranpox",
+    "xyqfer"
   ],
   "/infzm/:id": [
     "KarasuShin",
@@ -6606,8 +6623,12 @@
   "/xiaohongshu/board/:board_id": [
     "lotosbin"
   ],
-  "/xiaohongshu/user/:user_id/notes/fulltext": [],
-  "/xiaohongshu/user/:user_id/:category": [],
+  "/xiaohongshu/user/:user_id/notes/fulltext": [
+    "howerhe"
+  ],
+  "/xiaohongshu/user/:user_id/:category": [
+    "lotosbin"
+  ],
   "/xiaomiyoupin/crowdfunding": [
     "bigfei"
   ],
@@ -6768,6 +6789,9 @@
   ],
   "/yicai/brief": [
     "sanmmm",
+    "nczitzk"
+  ],
+  "/yicai/carousel": [
     "nczitzk"
   ],
   "/yicai/dt/:column?/:category?": [

@@ -1279,6 +1279,14 @@
         "target": "/apnews/rss/:rss"
       },
       {
+        "title": "Sitemap",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/"
+        ],
+        "target": "/apnews/sitemap/:route"
+      },
+      {
         "title": "Topics",
         "docs": "https://docs.rsshub.app/routes/traditional-media",
         "source": [
@@ -4585,7 +4593,7 @@
     ".": [
       {
         "title": "Official Blogs",
-        "docs": "https://docs.rsshub.app/routes/blog",
+        "docs": "https://docs.rsshub.app/routes/game",
         "source": [
           "/blog"
         ],
@@ -7966,6 +7974,19 @@
   },
   "hket.com": {
     "_name": "香港经济日报",
+    "china": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/:category/*",
+          "/:category/*",
+          "/:category/*",
+          "/:category/*"
+        ],
+        "target": "/hket/:category"
+      }
+    ],
     "www": [
       {
         "title": "新闻",
@@ -7973,7 +7994,7 @@
         "source": [
           "/"
         ],
-        "target": "/hket/:category?"
+        "target": "/hket/"
       }
     ]
   },
@@ -8034,6 +8055,19 @@
           "/"
         ],
         "target": "/hongkong/dh/:language?"
+      }
+    ]
+  },
+  "hottoys.com.hk": {
+    "_name": "Hot Toys",
+    ".": [
+      {
+        "title": "Toys List",
+        "docs": "https://docs.rsshub.app/routes/shopping",
+        "source": [
+          "/"
+        ],
+        "target": "/hottoys/"
       }
     ]
   },
@@ -8916,6 +8950,14 @@
   "infzm.com": {
     "_name": "infzm",
     ".": [
+      {
+        "title": "热门文章",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/"
+        ],
+        "target": "/infzm/hot"
+      },
       {
         "title": "频道",
         "docs": "https://docs.rsshub.app/routes/traditional-media",
@@ -18693,7 +18735,7 @@
         "target": "/xiaohongshu/board/:board_id"
       },
       {
-        "title": "Unknown",
+        "title": "用户笔记 全文",
         "docs": "https://docs.rsshub.app/routes/social-media",
         "source": [
           "/user/profile/:user_id"
@@ -19038,6 +19080,14 @@
           "/brief"
         ],
         "target": "/yicai/brief"
+      },
+      {
+        "title": "轮播",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/"
+        ],
+        "target": "/yicai/carousel"
       },
       {
         "title": "关注",
