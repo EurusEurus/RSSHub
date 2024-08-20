@@ -1099,7 +1099,7 @@
   "/cctv/lm/:id?": [
     "nczitzk"
   ],
-  "/cctv/xwlb": [
+  "/cctv/:site/:category/:name": [
     "zengxs"
   ],
   "/cde/:channel/:category": [
@@ -2228,6 +2228,9 @@
   ],
   "/gihyo/list/group/:id": [
     "masakichi"
+  ],
+  "/gisreportsonline/:path{.*}": [
+    "dzx-dzx"
   ],
   "/gitee/commits/:owner/:repo": [
     "TonyRL"
@@ -3403,6 +3406,9 @@
   ],
   "/jlu/ccst/xwzx/:category": [
     "mayouxi"
+  ],
+  "/joins/chinese/:category?": [
+    "nczitzk"
   ],
   "/jornada/:date?/:category?": [
     "Thealf154"
@@ -5042,6 +5048,9 @@
   ],
   "/readwise/list/:routeParams?": [
     "xbot"
+  ],
+  "/rebase/geekdaily": [
+    "gaoyifan"
   ],
   "/remnote/changelog": [
     "TonyRL",
