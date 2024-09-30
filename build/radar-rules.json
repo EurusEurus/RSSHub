@@ -8190,7 +8190,67 @@
         "source": [
           "/"
         ],
-        "target": "/gov/moa/:suburl"
+        "target": "/gov/moa/suburl/:suburl"
+      }
+    ],
+    "www": [
+      {
+        "title": "中华人民共和国农业农村部生猪专题重要政策",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/ztzl/szcpxx/zyzc/index.htm"
+        ],
+        "target": "/gov/moa/szcpxx"
+      }
+    ],
+    "zdscxx": [
+      {
+        "title": "价格指数",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/nyb/pc/messageList.jsp"
+        ],
+        "target": "/gov/gov/moa/zdscxx/价格指数"
+      },
+      {
+        "title": "供需形势",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/nyb/pc/messageList.jsp"
+        ],
+        "target": "/gov/gov/moa/zdscxx/供需形势"
+      },
+      {
+        "title": "分析报告周报",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/nyb/pc/messageList.jsp"
+        ],
+        "target": "/gov/gov/moa/zdscxx/分析报告周报"
+      },
+      {
+        "title": "分析报告日报",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/nyb/pc/messageList.jsp"
+        ],
+        "target": "/gov/gov/moa/zdscxx/分析报告日报"
+      },
+      {
+        "title": "日历信息",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/nyb/pc/messageList.jsp"
+        ],
+        "target": "/gov/gov/moa/zdscxx/日历信息"
+      },
+      {
+        "title": "蔬菜生产",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/nyb/pc/messageList.jsp"
+        ],
+        "target": "/gov/gov/moa/zdscxx/蔬菜生产"
       }
     ]
   },
@@ -12718,14 +12778,14 @@
     ]
   },
   "lovelive-anime.jp": {
-    "_name": "lovelive-anime",
+    "_name": "Love Live! Official Website",
     "www": [
       {
-        "title": "Love Live! Official Website Latest NEWS",
+        "title": "News",
         "docs": "https://docs.rsshub.app/routes/anime",
         "source": [
           "/",
-          "/news"
+          "/news/"
         ],
         "target": "/lovelive-anime/news"
       }
@@ -16488,6 +16548,24 @@
           "/zh-hant/news/:catagory"
         ],
         "target": "/ncku/csie/:catagory"
+      }
+    ],
+    "phys": [
+      {
+        "title": "Phys News",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/news/"
+        ],
+        "target": "/ncku/phys/_all"
+      },
+      {
+        "title": "Phys News",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/news/:catagory/"
+        ],
+        "target": "/ncku/phys/:catagory"
       }
     ]
   },
@@ -20980,6 +21058,20 @@
       }
     ]
   },
+  "spankbang.com": {
+    "_name": "SpankBang",
+    ".": [
+      {
+        "title": "New Porn Videos",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/new_videos/",
+          "/"
+        ],
+        "target": "/spankbang/new_videos"
+      }
+    ]
+  },
   "spotify.com": {
     "_name": "Spotify",
     "open": [
@@ -24969,13 +25061,13 @@
     ]
   },
   "yande.re": {
-    "_name": "yande",
+    "_name": "yande.re",
     ".": [
       {
-        "title": "posts",
-        "docs": "https://docs.rsshub.app/routes/anime",
+        "title": "Popular Recent Posts",
+        "docs": "https://docs.rsshub.app/routes/picture",
         "source": [
-          "/post/"
+          "/post"
         ],
         "target": "/yande/post/popular_recent/:period?"
       }

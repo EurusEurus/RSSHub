@@ -2612,12 +2612,16 @@
     "Yoge-Code"
   ],
   "/gov/mmht/*": [],
-  "/gov/moa/:suburl{.+}": [
+  "/gov/moa/suburl/:suburl{.+}": [
     "Origami404",
     "lyqluis"
   ],
-  "/gov/moa/sjzxfb/:category{.+}?": [],
-  "/gov/moa/zdscxx/:category{.+}?": [],
+  "/gov/moa/szcpxx": [
+    "nczitzk"
+  ],
+  "/gov/moa/zdscxx/:category{.+}?": [
+    "nczitzk"
+  ],
   "/gov/moe/:type": [
     "Crawler995"
   ],
@@ -3865,10 +3869,13 @@
     "ladeng07",
     "3401797899"
   ],
-  "/lovelive-anime/news/:option?": [
+  "/lovelive-anime/news/:abbr?/:category?/:option?": [
+    "axojhf",
+    "zhaoweizhong"
+  ],
+  "/lovelive-anime/schedules/:serie?/:category?": [
     "axojhf"
   ],
-  "/lovelive-anime/schedules/:serie?/:category?": [],
   "/lovelive-anime/topics/:abbr/:category?/:option?": [
     "axojhf"
   ],
@@ -4248,6 +4255,9 @@
     "nilleo"
   ],
   "/ncku/csie/:catagory?": [
+    "simbafs"
+  ],
+  "/ncku/phys/:catagory?": [
     "simbafs"
   ],
   "/ncpssd/newlist": [
@@ -5773,6 +5783,9 @@
   "/southcn/nfapp/reporter/:reporter": [
     "TimWu007"
   ],
+  "/spankbang/new_videos": [
+    "TonyRL"
+  ],
   "/spotify/artist/:id": [
     "outloudvi"
   ],
@@ -5988,6 +6001,12 @@
   "/sysu/cse": [],
   "/sysu/ygafz/:type?": [
     "TonyRL"
+  ],
+  "/szftedu/dongtai": [
+    "valuex"
+  ],
+  "/szftedu/gonggao": [
+    "valuex"
   ],
   "/szse/inquire/:category?/:select?/:keyword?": [
     "Jeason0228",
@@ -7080,6 +7099,8 @@
     "KarasuShin"
   ],
   "/yande/post/popular_recent/:period?": [
+    "magic-akari",
+    "SettingDust",
     "fashioncj",
     "NekoAria"
   ],
