@@ -600,6 +600,9 @@
   "/bangumi/tv/user/blog/:id": [
     "nczitzk"
   ],
+  "/bangumi/tv/user/collections/:id/:subjectType/:type": [
+    "youyou-sudo"
+  ],
   "/bangumi/tv/user/wish/:id": [
     "honue"
   ],
@@ -1157,6 +1160,9 @@
   "/cebbank/quotation/history/:type": [
     "linbuxiao"
   ],
+  "/ceph/blog/:topic?": [
+    "pandada8"
+  ],
   "/cfachina/servicesupport/analygarden/:program?": [
     "TonyRL"
   ],
@@ -1605,6 +1611,12 @@
   ],
   "/deadline/": [
     "TonyRL"
+  ],
+  "/dealstreetasia/home": [
+    "jack2game"
+  ],
+  "/dealstreetasia/section/:section": [
+    "jack2game"
   ],
   "/dedao/:category?": [],
   "/dedao/knowledge/:topic?/:type?": [
@@ -2373,6 +2385,9 @@
   "/github/contributors/:user/:repo/:order?/:anon?": [
     "zoenglinghou"
   ],
+  "/github/discussion/:user/:repo/:state?/:category?": [
+    "waynzh"
+  ],
   "/github/file/:user/:repo/:branch/:filepath{.+}": [
     "zengxs"
   ],
@@ -2533,6 +2548,9 @@
   "/gov/cnnic/*": [],
   "/gov/csrc/auditstatus/:apply_id": [
     "hillerliao"
+  ],
+  "/gov/csrc/zfxxgk_zdgk/:id?": [
+    "nczitzk"
   ],
   "/gov/csrc/news/:suffix{.+}?": [],
   "/gov/customs/list/:gchannel?": [
@@ -3480,6 +3498,12 @@
   "/javlibrary/update/:language?": [],
   "/javlibrary/users/:id/:type/:language?": [],
   "/javlibrary/:type/:id/:language?": [],
+  "/javtiful/actress/:id": [
+    "huanfe1"
+  ],
+  "/javtiful/channel/:id": [
+    "huanfe1"
+  ],
   "/jd/price/:id": [
     "nczitzk"
   ],
